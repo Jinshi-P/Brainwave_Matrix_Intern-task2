@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cake world</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-..."> 
+<link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+          <nav class="navbar navbar-expand-lg " style="height: 90px;">
+            <div class="container-fluid" >
+                <a class="navbar-brand" href="#" style="color: white; font-family:cursive; font-weight: bold; font-style: oblique; ">
+                    <img src="/images/logo.jpeg" href="#" alt="" width="80px" height="70 px" style="border-radius: 6%;" class="d-inline-block m-2 "> CAKE WORLD 
+                 </a>
+                </div>
+                <div class="container-fluid">
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="home.html" style="color: white;">Home</a>
+                  </li>
+                 
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="collection.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
+                      Our Collections
+                    </a>
+                    <ul class="dropdown-menu"  aria-labelledby="navbarDropdown">
+                      <li ><a class="dropdown-item" href="cakes.html">Chocalate cakes</a></li>
+                      <li><a class="dropdown-item" href="cheeseCake.html">Cheese cakes</a></li>
+                      <li><a class="dropdown-item" href="xmas.html">X_Mas / New year cakes</a></li>
+                      <li><a class="dropdown-item" href="shapecakes.html">Shape cakes</a></li>
+                      <li><a class="dropdown-item" href="kidscake.html">Kids cakes</a></li>
+                      <li><a class="dropdown-item" href="allOcasion.html">All occasion cakes</a></li>
+                      <li><a class="dropdown-item" href="cupCake.html">Cup cakes</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/about.html" style="color: white;">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html" style="color: white;">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          
+
+
+
+
+
+
+                <div  class="m-5" style="display: flex; flex-direction: row; padding: 10px;">
+                  
+                  <button style="font-size: 24px; border-radius: 50%; border: none; outline: none;  "> 
+                    <i style="color: rgb(72, 71, 71);"class="fas fa-user"></i>
+                  </button>
+                  <button style="font-size: 24px; border-radius: 50%; border: none; outline: none; margin-left: 10px;"> 
+                    <i style="color: rgb(72, 71, 71);" class="fas fa-search"></i>
+                  </button>
+                  <form action="cart.html">
+                    <button style="font-size:24px; width:70px; border-radius: 30%; border: none; outline: none;margin-left: 10px; ">
+                       <i style="color: rgb(72, 71, 71);"class="fa fa-shopping-cart"></i><span id="cartItemCount" style=" margin-left: 5px; font-weight: bold; ">  0</span></button>
+                      </form></div> 
+                
+          </nav>
+          
+    </header>
+
+    <main>
+
+        <div class="container" style="width: 500px; background:rgb(249, 211, 136); padding: 20px; height:auto; margin-top: 100px; margin-bottom: 100px; ">
+            <h3 style="text-align: center;text-decoration:underline #e76f33;">Login</h3>
+            <form class="m-5"  onsubmit="return handleSubmit();">
+                <div id="message" class="alert alert-danger" style="display:none;">
+                    This is an error message
+                </div>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Username</label>
+                    <input style="height: 50px;" type="text" class="form-control" id="name"  placeholder="Username">
+                   
+                  </div>
+                
+                <div class="mb-3">
+                  <label for="password" class="form-label">Password</label>
+                  <input style="height: 50px;" type="password" class="form-control" id="password" placeholder="Password">
+                </div> 
+                
+                <button type="submit" class="btn" style="background-color: #7d300a; color: white; width: 150px;" >Submit</button>
+               
+              </form>
+              <p style="margin-left: 20px;"> Don't have an account?<a href="signup.html">Click here</a>to register</p>
+            </div>
+
+    </main>
+
+    <footer class="mainfooter ">
+        <div class="container-fluid" style="display: flex; flex-direction: row; margin-left: 10px;" >
+          <div style="padding-left: 150px;">
+          <h3>CAKE WORLD</h3>
+          <p>Cake world established in September 2012 </br>and is now one of the most popular Confectionery in malappuram.</br>
+            Equipments being used are best and the Latest technology</br> in the field of Bakery and Confectionery.<br> Cake world serves you with a wide variety of cakes,<br> comes in all shapes
+            and flavours.<br> We offer cakes for various occasions,decorated the way you want it.<br> At Cake world, we use quality ingredients and have expertised cheffs.<br> You will find the difference in every bite. We have<br> created multiple relationships in a short time,<br> with thousands of happy customers. We ensure all<br> your celebrations begins here!</p>
+        </div>
+        <div class="m-5" style=" display:flex; flex-direction:column; padding-left: 80px;">
+          <p style="text-decoration: underline; font-size:larger; font-weight: bold;">Top Links</p>
+          <a href="home.html" style="color: white; text-decoration: none; margin: 2px;">Home</a>
+          <a href="cakes.html" style="color: white; text-decoration: none; margin: 2px;">Chocolate-cake</a>
+          <a href="cheeseCake.html" style="color: white; text-decoration: none; margin: 2px;">Cheese cake</a>
+          <a href="cupCake.html" style="color: white; text-decoration: none; margin: 2px;">Cupcakes</a>
+          <a href="kidscake.html" style="color: white; text-decoration: none; margin: 2px;">Kids cakes</a>
+          <a href="about.html" style="color: white; text-decoration: none; margin: 2px;">About Us</a>
+          <a href="contact.html" style="color: white; text-decoration: none; margin: 2px;">Contact Us</a>
+        </div>
+        <div style=" padding: 50px 0 0 80px; "> 
+          <p style="text-decoration: underline ; font-weight: bold; font-size: larger;margin-bottom: 20px;">Contact Us</p>
+          <p style="margin-bottom: 50px;">call us : (+91)9876543210<br>
+          mail us : cakeworld@gmail.com </p>
+
+          <a href="about.html" style="border-radius: 12px;
+           outline: white;
+            background-color:#f9671e; 
+            padding: 8px; font-size: larger; 
+            color: white;
+             border: solid 2px white;
+             cursor: pointer;
+             text-decoration: none;" >View our outlets</a>
+
+        </div>
+      </div>
+    </footer>
+    <footer class="container-fluid"  >
+        <div  style="display: flex; flex-direction: column;">
+        <p style="padding: 20px; height: 50px; color: white;">follow us 
+            <a href="https://www.facebook.com/groups/749932655149502/"><i style="margin-left: 10px;"class="fab fa-facebook"></i></a>
+           <a href="https://www.youtube.com/shorts/f-yquZMBs5g"> <i style="margin-left: 10px; color: red;"class="fab fa-youtube"></i></a>
+            <a href="https://www.instagram.com/cake_world_nilambur/"><i style="margin-left: 10px; color: rgb(222, 40, 222);" class="fab fa-instagram"></i></a> </p>
+       
+      </div>
+  
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="login.js"></script> 
+    <script src="script.js"></script>
+    </body>
+    </html>
